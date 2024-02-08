@@ -9,9 +9,9 @@ Project Description: This application lets you choose from a selection of bird e
 3. drag and drop eggs into birds nest, and listen to the birds
 4. use volume to adjust sound of bird noises
 
-##credits:
+## credits:
 myself for background art and eggs
 
-##licence 
+## licence 
 MIT licence
 
