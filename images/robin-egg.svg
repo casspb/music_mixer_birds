@@ -1,47 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 28.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:url(#Egg_00000119818532744602467070000008110512967231821204_);}
-	.st1{fill:#762B1E;}
-	.st2{fill:#B17B5C;}
-	.st3{fill:#A66A49;}
-	.st4{fill:url(#Egg_00000098180387260073025070000006336655487511886720_);}
-	.st5{fill:none;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
-	.st6{fill:url(#Egg_00000086672591153752174180000001033499273085840545_);}
-	.st7{fill:#492B13;}
-	.st8{fill:#785B43;}
-	.st9{fill:url(#SVGID_1_);}
-	.st10{fill:url(#Egg_00000107556033896422209280000012475692899212409230_);}
-	.st11{fill:#634F4D;}
-	.st12{fill:#191923;}
-	.st13{fill:none;stroke:#191923;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
-	.st14{fill:#755F4A;}
-	.st15{fill:none;stroke:#755F4A;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;}
-	.st16{fill:url(#Egg_00000060017947738906052120000001840348250769286023_);}
-</style>
-<g id="Great-tit">
-</g>
-<g id="Common-loon">
-</g>
-<g id="Layer_4">
-</g>
-<g id="Layer_5">
-</g>
-<g id="Layer_8">
-</g>
-<g id="Rock-bunting_1_">
-</g>
-<g id="Robin">
-	<radialGradient id="SVGID_1_" cx="248" cy="390.369" r="67.221" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#21A8CA"/>
-		<stop  offset="1" style="stop-color:#127E99"/>
-	</radialGradient>
-	<path class="st9" d="M190,399.4c0-35,29-84.3,61-84.3s55,49.3,55,84.3s-25,66.3-57,66.3S190,434.3,190,399.4z"/>
-</g>
-<g id="Common-murre">
-</g>
-<g id="Song-thrush">
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Robin" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 612 792">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="312.24" cy="419.69" fx="312.24" fy="419.69" r="277.63" gradientTransform="translate(-1.48 -42.24) scale(1.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#21a8ca"/>
+      <stop offset="1" stop-color="#127e99"/>
+    </radialGradient>
+  </defs>
+  <path class="cls-1" d="m75,441.15c0-152.82,125.86-368.48,265.03-368.48s238.97,215.65,238.97,368.48-108.48,289.82-247.66,289.82S75,593.97,75,441.15Z"/>
 </svg>
