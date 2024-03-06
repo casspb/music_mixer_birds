@@ -1,14 +1,11 @@
 body{
-    background-image: url(../images/Music-mixer.jpg);
+    background-image: url(../images/Music-mixer-background.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+   background-size: 100%;
 }
 
 h1{ 
     text-align: center;
     font-size: 60px;
     background-color: rgba(255, 255, 255, 0.3);
-}
-.egg{
-    width:  200px;
 }

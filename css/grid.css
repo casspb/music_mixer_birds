@@ -2,7 +2,7 @@
 for this library we will stick with pixels */
 
 /* ---General rules - scales images, videos to size of container--- */
-img, embed, object, video, picture {
+/*img, embed, object, video, picture {
     max-width: 100%; 
   }
   
