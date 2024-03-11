@@ -13,6 +13,13 @@
 </header>
 
 <main class="grid-con">
+    <audio id="audioRobin" src="audio/XC364638 - American Robin - Turdus migratorius.mp3"></audio>
+    <audio id="audioMurre" src="audio/XC734685 - Common Murre - Uria aalge.mp3"></audio>
+    <audio id="audioLoon" src="audio/XC751279 - Common Loon - Gavia immer.mp3"></audio>
+    <audio id="audioRock" src="audio/XC865950 - Rock Bunting - Emberiza cia.mp3"></audio>
+    <audio id="audioSong" src="audio/XC870794 - Song Thrush - Turdus philomelos.mp3"></audio>
+    <audio id="audioGreat" src="audio/XC870927 - Great Tit - Parus major bokharensis.mp3"></audio>
+
     <section class=" l-col-start-3 l-col-span-6">
         <h2 class="hidden">dropzone</h2>
     <div class="nest">
@@ -29,31 +36,29 @@
 
     <section class="egg-box l-col-start-1 l-col-span-6">
         <h2 class="hidden"> bird egg options</h2>
-    <div class="loon egg">
-        <img src="images/common-loon-egg.svg" alt="common loon egg">
-    </div>
-    <div class=" murre egg"> 
-        <img src="images/common-murre-egg.svg" alt="common murre egg">
-    </div>
-    <div class="great egg">
-        <img src="images/great-tit-egg.svg" alt="great tit egg">
-    </div>
-    <div class=" robin egg">
-        <img src="images/robin-egg.svg" alt="robin egg">
-    </div>
-    <div class="rock egg"> 
-        <img src="images/rock-bunting-egg.svg" alt="rock bunting egg">
-    </div>
-    <div class="song egg">
-        <img src="images/song-thrush-egg.svg" alt="song thrust egg">
+    <div class="egg">
+        <img src="images/common-loon-egg.svg" alt="common loon egg" data-trackref="commonloon">
+        <img src="images/common-murre-egg.svg" alt="common murre egg" data-trackref="commonmurre">
+        <img src="images/great-tit-egg.svg" alt="great tit egg" data-trackref="greattit">
+        <img src="images/robin-egg.svg" alt="robin egg" data-trackref="robin">
+        <img src="images/rock-bunting-egg.svg" alt="rock bunting egg" data-trackref="rockbunting">
+        <img src="images/song-thrush-egg.svg" alt="song thrush egg" data-trackref="songthrush">
     </div>
 </section>
 
-<section class="volume l-col-start-9 l-col-span-3" >
+<section class="audio-controls l-col-start-10 l-col-span-3" >
     <h2 class="hidden">volume buttons</h2>
-    <div>
+    <button id="playButton"> PLAY </button>
+            <button id="pauseButton"> PAUSE </button>
+            <button id="rewindButton"> REWIND </button>
 
-    </div>
+            <div id="volumeAmt"></div>
+            <input
+            id="volumeControl"
+            type="range"
+            min="0"
+            max="100"
+            step="1">
 </section>
 </main>
 <footer>

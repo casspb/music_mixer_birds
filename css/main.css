@@ -28,9 +28,10 @@ h1{
 }
 
 .egg{
-    width: 100px;
-    height: 100px;
+    display: flex;
+    height: 134px;
    }
+
 
 .howto{
     width: 258px;
@@ -50,10 +51,12 @@ h1{
     padding: 20px;
 }
 
-.volume{
-    width: 352px;
+.audio-controls{
+
+    width: 258px;
     height: 135px;
     background-color: #AC9B74;
     border-radius: 53px;
+    padding: 40px 35px;
 
 }
