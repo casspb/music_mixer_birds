@@ -2,7 +2,7 @@
 for this library we will stick with pixels */
 
 /* ---General rules - scales images, videos to size of container--- */
-/*img, embed, object, video, picture {
+img, embed, object, video, picture {
     max-width: 100%; 
   }
   
@@ -47,7 +47,7 @@ for this library we will stick with pixels */
      /* set this container as a grid, with 3 columns
      the other grid will sit in the middle column, this allows for overlapping content */
      display: grid; 
-      grid-template-columns: 1fr minmax(0, 1920px) 1fr;  
+      grid-template-columns: 1fr minmax(0, 1200px) 1fr;  
   }
   
    
@@ -55,8 +55,9 @@ for this library we will stick with pixels */
         display: grid; 
         grid-template-columns: repeat(12, minmax(0, 1fr));
         grid-column-gap: 18px;
-        padding-left:0px;
-        padding-right: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
      }
   
      .l-col-span-1	{grid-column: span 1 / span 1;}

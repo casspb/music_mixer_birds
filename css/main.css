@@ -1,7 +1,9 @@
 body{
     background-image: url(../images/Music-mixer-background.jpg);
     background-repeat: no-repeat;
-   background-size: 100%;
+    background-size: cover;
+    width: 1200px;
+    height: 675px;
 }
 
 h1{ 
@@ -10,22 +12,48 @@ h1{
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.nest{
-  text-align: center;  
+.nest{ 
+    margin-top: 50px;
+   width: 612px;
+   height: 410px;
 }
 
 .egg-box{
     display: flex;
     background-color: #AC9B74;
     border-radius: 53px;
-    width: 1046px;
-    height: 200px;
-    margin-top: 400px;
-    margin-left: 150px;
-    margin-right: 150px;
+    width: 626px;
+    height: 134px;
+
 }
 
 .egg{
-    width: 160px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
    }
+
+.howto{
+    width: 258px;
+    height: 340px;
+    background-color: #AC9B74;
+    border-radius: 53px;
+    margin-top: 100px;
+}
+
+.howto span{
+    font-weight: bold;
+}
+
+.howto p{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.volume{
+    width: 352px;
+    height: 135px;
+    background-color: #AC9B74;
+    border-radius: 53px;
+
+}
