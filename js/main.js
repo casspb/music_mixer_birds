@@ -6,6 +6,7 @@
     let rewindButton = document.getElementById('rewindButton');
     let volSlider = document.getElementById('volumeControl');
     let volAmount = document.getElementById('volumeAmt');
+    let eggBox = document.querySelector('.egg');
 
     // Store the audio elements in an object for easy access
     let audios = {
@@ -30,7 +31,24 @@
         event.preventDefault();
     });
 
-
+    nest.addEventListener('drop', (event) => {
+        event.preventDefault();
+        const trackRef = event.dataTransfer.getData("text/plain");
+        if (trackRef && audios[trackRef]) {
+            audios[trackRef].play();
+            // Create a clone of the dragged egg
+            const draggedEgg = document.querySelector(`[data-trackref="${trackRef}"]`);
+            const clone = draggedEgg.cloneNode(true);
+            clone.style.position = 'absolute';
+            clone.style.width = '134px';
+            clone.style.height = '134px';
+            clone.style.top = `${event.clientY - nest.getBoundingClientRect().top - 67}px`; // Adjust for egg size
+            clone.style.left = `${event.clientX - nest.getBoundingClientRect().left - 67}px`; // Adjust for egg size
+            nest.appendChild(clone);
+            // Remove the dragged egg from the egg box
+            draggedEgg.remove();
+        }
+    });
 
     // Add event listeners for audio controls
     playButton.addEventListener('click', () => {
