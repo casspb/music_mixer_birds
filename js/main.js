@@ -1,6 +1,11 @@
 (() => {
     let nest = document.querySelector('.nest');
-    let birdEggs = document.querySelectorAll(".egg");
+    let birdEggs = document.querySelectorAll(".egg img");
+    let playButton = document.getElementById('playButton');
+    let pauseButton = document.getElementById('pauseButton');
+    let rewindButton = document.getElementById('rewindButton');
+    let volSlider = document.getElementById('volumeControl');
+    let volAmount = document.getElementById('volumeAmt');
 
     // Store the audio elements in an object for easy access
     let audios = {
@@ -25,16 +30,7 @@
         event.preventDefault();
     });
 
-    nest.addEventListener('drop', (event) => {
-        event.preventDefault();
-        const trackRef = event.dataTransfer.getData("text/plain");
-        if (trackRef && audios[trackRef]) {
-            audios[trackRef].play();
-            // Append the dragged egg to the nest
-            const draggedEgg = document.querySelector(`[data-trackref="${trackRef}"]`);
-            nest.appendChild(draggedEgg);
-        }
-    });
+
 
     // Add event listeners for audio controls
     playButton.addEventListener('click', () => {
