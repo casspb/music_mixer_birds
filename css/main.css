@@ -18,6 +18,16 @@ h1{
    position: relative;
 }
 
+.dropzone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+    z-index: 2; /* Ensure it's above the nest image */
+    background-color: transparent; /* Make it transparent */
+}
+
 .nest img {
     position: absolute;
     top: 0;
@@ -37,7 +47,7 @@ h1{
 }
 
 .egg img{
-    display: inline;
+    display: inline-flex;
     height: 134px;
    }
 
