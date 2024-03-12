@@ -2,8 +2,7 @@ body{
     background-image: url(../images/Music-mixer-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1200px;
-    height: 675px;
+   display: grid;
 }
 
 h1{ 
@@ -16,19 +15,29 @@ h1{
     margin-top: 50px;
    width: 612px;
    height: 410px;
+   position: relative;
 }
+
+.nest img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto; /* Adjust this value as needed */
+    height: auto; /* Adjust this value as needed */
+    z-index: 1;
+  }
 
 .egg-box{
     display: flex;
     background-color: #AC9B74;
     border-radius: 53px;
-    width: 626px;
+    width: 646px;
     height: 134px;
 
 }
 
-.egg{
-    display: flex;
+.egg img{
+    display: inline;
     height: 134px;
    }
 
