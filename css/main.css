@@ -11,6 +11,7 @@ main{
     background-size: cover;
     width: 1200px;
     height: 675px;
+    border-radius: 50px;
 }
 
 h1{ 
