@@ -4,19 +4,19 @@ main.grid-con {
 
 html{
     background-color: #99ac74;
-    background-image: url(../images/pexels-surya-prakash-7639073.jpg);
+  }
 
-}
 main{
     background-image: url(../images/Music-mixer-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 1200px;
     height: 675px;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 h1{ 
+    font-family: "Crafty Girls", cursive;
     text-align: center;
     font-size: 60px;
     background-color: #ac9b74a1;
@@ -62,34 +62,35 @@ h1{
 .egg img{
     display: inline-flex;
     height: 134px;
+    cursor: pointer;
    }
 
 
 .howto{
     width: 258px;
-    height: 340px;
+    height: 360px;
     background-color: #AC9B74;
     border-radius: 53px;
     margin-top: 100px;
 }
 
-.howto span{
-    font-weight: bold;
-}
 
 .howto p{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px;
+    font-family: "Crafty Girls", cursive;
+
 }
 
 .audio-controls{
 
     width: 258px;
-    height: 135px;
+    height: 120px;
     background-color: #AC9B74;
-    border-radius: 53px;
-    padding: 40px 35px;
+    border-radius: 40px;
+    padding: 30px 35px;
+    text-align: center; 
 
 }
 
@@ -104,3 +105,17 @@ h1{
   .egg img.infiniteShake {
     animation: infiniteShake 0.5s ease-in-out infinite;
   }
+
+
+  #playButton, #pauseButton, #rewindButton {
+   height: 50px;
+   width: 50px;
+    border-radius: 10px;
+  cursor: pointer;
+  background-color: #e8d8b3;
+  border-color: #AC9B74;
+ }
+
+ #playButton img, #pauseButton img, #rewindButton img{ 
+    height: 20px;
+ } 
